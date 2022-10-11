@@ -1,0 +1,95 @@
+.clients .link-down {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    color: var(--icon-color);
+}
+
+.icon-team {
+    color: var(--icon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-team {
+    &:hover .icon {
+    color: var(--color);
+    }
+}
+
+.icon {
+    position: absolute;
+    fill: currentColor;
+}
+
+.icon-second {
+    fill: currentColor;
+}
+
+.clients .link-down {
+    display: flex;
+    justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment {
+    padding: 12px;
+}
+
+.link-down { 
+    &:hover {
+    color: var(--a-color);
+    border-color: var(--a-color);
+    }
+}
+
+.client {
+    fill: currentColor;
+    text-decoration: none;
+}
+
+.link {
+    &:hover .icon-first {
+    color: var(--a-color);
+    }
+}
+
+.icon-first {
+    fill: currentColor;
+    color: var(--icon-color);
+    margin-right: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.big-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background: var(--background-color);
+    border-radius: 4px;
+    height: 120px;
+    align-items: center;
+}
+
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item {
+    cursor: pointer;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,54 @@
+/* Active */
+
+.active {
+    color: var(--a-color);
+    position: relative;
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: var(--a-color);
+    border-radius: 2px;
+}
+
+.tables-two li {
+    &:hover .overlay > .text-photo {
+    transform: translateY(0); 
+    }
+}
+
+.first-child {
+    margin-left: 50px;
+}
+
+.telephone, .email {
+    font-weight: 500;
+    padding: 32px 0;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--description-color);
+}
+
+.email {
+    &:hover, .email:focus {
+    color: var(--a-color);
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
